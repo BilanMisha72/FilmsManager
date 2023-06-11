@@ -32,6 +32,7 @@ public class FilmsManagerTest {
         String[] actual = manager.findAll();
         Assertions.assertArrayEquals(expected, actual);
     }
+
     @Test
     public void findLastFilmsTest() {
         FilmsManager manager = new FilmsManager();
