@@ -34,7 +34,7 @@ public class FilmsManagerTest {
     }
 
     @Test
-    public void findLastFilmsTest() {
+    public void findLastFilmsBelowLimitTest() {
         FilmsManager manager = new FilmsManager();
 
         manager.addFilm("Film I");
@@ -47,7 +47,7 @@ public class FilmsManagerTest {
     }
 
     @Test
-    public void findLastFilmsTest1() {
+    public void findLastFilmsAlikeLimitTest() {
         FilmsManager manager = new FilmsManager();
 
         manager.addFilm("Film I");
@@ -62,7 +62,7 @@ public class FilmsManagerTest {
     }
 
     @Test
-    public void findLastFilmsTest2() {
+    public void findLastFilmsHigherLimitTest() {
         FilmsManager manager = new FilmsManager();
 
         manager.addFilm("Film I");
